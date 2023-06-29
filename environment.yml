@@ -1,7 +1,3 @@
-name: test-environment
-channels:
-  - conda-forge
-  - defaults
 dependencies:
   - Cycler
   - decorator
