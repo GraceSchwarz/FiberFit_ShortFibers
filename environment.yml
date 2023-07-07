@@ -11,4 +11,12 @@ dependencies:
   - pathlib
   - python-dateutil>=2.7
   - scikit-image
+  - more-itertools
+  - statsmodels
+  - imageio
+  - ipykernel
+  - ipython_genutils
+  - ipython
+  - ipywidgets
+
 
