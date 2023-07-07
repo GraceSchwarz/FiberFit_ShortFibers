@@ -26,7 +26,6 @@ dependencies:
     - cv2studio
     - cv_utils
     - runtime
-    - py-dateutil>=2.7
     - PyQt5
     - mpl-tools
     - mpl4qt
