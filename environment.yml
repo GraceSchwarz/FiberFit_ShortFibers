@@ -18,5 +18,5 @@ dependencies:
   - ipython_genutils
   - ipython
   - ipywidgets
-
+  - matplotlib
 
