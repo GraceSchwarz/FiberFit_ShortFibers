@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 #%matplotlib notebook
 from ipywidgets import *
 from IPython.display import display
-from IPython.html import widgets
 import base64
 res = 'computed results'
 plt.style.use('ggplot')
