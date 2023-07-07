@@ -22,6 +22,17 @@ dependencies:
   - matplotlib
   - pip:
     - syspath
+    - smop
+    - cv2studio
+    - cv_utils
+    - runtime
+    - py-dateutil
+    - PyQt5
+    - mpl-tools
+    - mpl4qt
+    - mpl-utils
+    - opencv-python
+    - ffmpy
 
 
 
