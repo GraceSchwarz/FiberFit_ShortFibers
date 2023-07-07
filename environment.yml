@@ -26,13 +26,15 @@ dependencies:
     - cv2studio
     - cv_utils
     - runtime
-    - py-dateutil
+    - py-dateutil>=2.7
     - PyQt5
     - mpl-tools
     - mpl4qt
     - mpl-utils
     - opencv-python
     - ffmpy
+    - isapi_wsgi
+    - juypterlab
 
 
 
