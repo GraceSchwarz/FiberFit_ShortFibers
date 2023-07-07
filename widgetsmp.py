@@ -7,7 +7,7 @@ import base64
 res = 'computed results'
 plt.style.use('ggplot')
 from src.fibers_QQQQQQ_invert import fiber_analysis
-from quanfima_torun import fiber_visualization
+#from quanfima_torun import fiber_visualization
 import os
 import glob
 #button = widgets.Button(description='My Button')
@@ -56,23 +56,23 @@ def run(_):
     button.on_click(on_button_clicked)
     box=widgets.VBox([text1,text2,button])
     display(box,out)
-def run2(_):
+#def run2(_):
 
-    button = widgets.Button(
-        description='Run Fiber Orientation Visualization',
-        layout={'width': '300px'})
-    out= widgets.Output()
-    def on_button_clicked(_):
-      # "linking function with output"
-        with out:
-              # what happens when we press the button
-            clear_output()
-            print('Program executing. Output in output folder on home page')
-            fiber_visualization()
+#    button = widgets.Button(
+#        description='Run Fiber Orientation Visualization',
+#        layout={'width': '300px'})
+#    out= widgets.Output()
+#    def on_button_clicked(_):
+#      # "linking function with output"
+#        with out:
+#              # what happens when we press the button
+#            clear_output()
+#            print('Program executing. Output in output folder on home page')
+#            fiber_visualization()
    
-    button.on_click(on_button_clicked)
-    box=widgets.VBox([button])
-    display(box,out)
+#    button.on_click(on_button_clicked)
+#    box=widgets.VBox([button])
+#    display(box,out)
 
 from ipywidgets import HTML
 HTML()
