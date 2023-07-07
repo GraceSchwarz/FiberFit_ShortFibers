@@ -20,6 +20,8 @@ dependencies:
   - ipython
   - ipywidgets
   - matplotlib
+  - pip:
+    - syspath
 
 
 
