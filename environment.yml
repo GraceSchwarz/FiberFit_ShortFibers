@@ -6,3 +6,9 @@ dependencies:
   - scikit-image
   - scipy
   - seaborn
+  - numpy
+  - pandas
+  - pathlib
+  - python-dateutil>=2.7
+  - scikit-image
+
