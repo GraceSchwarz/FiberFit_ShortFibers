@@ -32,7 +32,6 @@ dependencies:
     - mpl-utils
     - opencv-python
     - ffmpy
-    - isapi_wsgi
     - juypterlab
 
 
